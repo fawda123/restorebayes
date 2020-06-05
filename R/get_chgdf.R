@@ -87,7 +87,8 @@ get_chgdf <- function(wqdat, wqmtch, statdat, restdat, wqvar = 'sal', yrdf = 5, 
         inczr %in% c(0, 2) ~ 'sig',
         inczr == 1 ~ 'ns'
       )
-    )
+    ) %>% 
+    ungroup()
   
   return(dfout)
   

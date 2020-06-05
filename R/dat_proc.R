@@ -99,7 +99,8 @@ wqdat <- epcdata %>%
   select(-sallo, -salmd, -salhi, -dolo, -domd, -dohi) %>% 
   mutate(
     datetime = as.Date(datetime, format = '%Y-%m-%d')
-  )
+  ) %>% 
+  ungroup()
 
 # get station locations
 wqstat <- wqdat %>% 
