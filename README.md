@@ -7,6 +7,8 @@ Repository DOI: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.2539623.svg)
 
 Manuscript: <https://doi.org/10.1007/s12237-019-00619-w>
 
+Shiny: <http://shiny.tbep.org/restoreTB/ind_eval.Rmd>
+
 # Data
 
 Files in `/data/` all created using `R/dat_proc.R`, unless otherwise noted
